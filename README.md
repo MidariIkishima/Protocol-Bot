@@ -64,3 +64,5 @@ GNU General Public License v3.0
 # Disclaimer
 Using Protocol-Bot in any malicious way can be illegal. 
 I assume no liability and am not responsible for anything illegal such as misuse or damage caused by it.
+
+This is only for educational purposes.
