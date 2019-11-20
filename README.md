@@ -52,9 +52,13 @@ Commands -    (Do command in chat '$protocol-002' for help) (All commands will b
 
 672 - Bot leaves the server
 # Installation
-Do command ```npm install``` (Requires node.js)
+1. Unzip ```node_modules``` File
 
-To run the bot, do the the command ```node protocol.js```
+2. Do command ```npm install``` (Requires node.js)
+
+3. Add the token in the botsettings.json
+
+4. To run the bot, do the the command ```node protocol.js```
 # License
 GNU General Public License v3.0
 # Disclaimer
