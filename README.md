@@ -7,7 +7,7 @@ This bot is very easy to understand and you are able to customize it to be whate
 
 This bot was originally based off of "PossumBot" as a template because of it's design.
 ## Backdooring
-It can be easily merged with another one of my bots because it has the same structure, to merge this with another type of bot, copy over the node modules dependencies, copy over the dependencies part in the index file, then copy line 26 to 582 and paste it in the index.
+It can be easily merged with another one of my bots because it has the same structure, to merge this with another type of bot, copy over the node modules dependencies, copy over the dependencies part in the index file, then copy line 25 to 582 and paste it in the index.
 ## Documentation
 Commands - (All commands will be like this as an example '$protocol-[numbers]')
 
