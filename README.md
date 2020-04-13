@@ -65,13 +65,25 @@ Commands - (All commands will be like this as an example '$protocol-[numbers]')
 
 672 - Bot leaves the server
 # Installation
+For people who need instruction on how to install -
+1. Unzip ```node_modules.zip```
+
+2. Install "recommended" version of Node JS | https://nodejs.org/en/
+
+3. Make a batch file with the command ```npm install``` in it and run it inside of the folder
+
+4. Go to | https://discordapp.com/developers | and create your bot and then copy the bot token
+
+5. Put the bot token inside of the ```botsettings.json``` file.
+
+6. make a batch file for launching stating the command ```node protocol.js```
+
+For people who already know how to install -
 1. Unzip ```node_modules``` File
 
-2. Do command ```npm install``` (Requires node.js)
+2. Do command ```npm install``` of course
 
 3. Add the token in the botsettings.json
-
-4. To run the bot, do the the command ```node protocol.js```
 # License
 GNU General Public License v3.0
 # Disclaimer
